@@ -1,0 +1,26 @@
+{
+  "name": "myproject",
+  "version": "0.0.0",
+  "homepage": "https://github.com/codesdk/myproject",
+  "authors": [
+    "Code SDK <codesdktutorials@gmail.com>"
+  ],
+  "description": "Demo for bower and polymer",
+  "main": "index.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.3.3"
+  }
+}

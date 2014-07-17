@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="bower_components/platform/platform.js"></script>
+<link rel="import" href="bower_components/polymer/polymer.html">
+</head>
+<body>
+    <polymer-element name="my-tag" noscript>
+    <template>
+    <style>
+    h1 {
+        color:orange;
+    }
+    </style>
+        <h1>Hello from my-tag</h1>
+    </template>
+    </polymer-element>
+
+    <my-tag></my-tag>
+    <h1>This is outside the polymer-element tag and not a custom element</h1>
+</body>
+</html>
